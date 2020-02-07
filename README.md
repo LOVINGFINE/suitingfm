@@ -10,19 +10,19 @@
 
 - 在系统环境变量中新增`JAVA_HOME` 变量将下载安装的jdk 目录路径加入，如下图所示
 
-  ![](lib\md\javahome.png)
+  ![](./lib/md/javahome.png)
 
 - 在`path` 变量中新增 /jre 目录 路径
 
-  ![](lib\md\jre.png)
+  ![](./lib/md/jre.png)
 
 - 新增`CLASSPATH`,加入刚刚的 `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
 
-  ![](lib\md\classpath.png)
+  ![](./lib/md/classpath.png)
 
 - 打开 命令行窗口 输入 `javac`  检验 是否成功
 
-  ![](lib\md\cmd.png)
+  ![](./lib/md/cmd.png)
 
 #### 1.2 node和Git 环境
 
@@ -45,21 +45,21 @@
 
 - android sdk  打开adroid studio  File->Settings->Appearance & Behavior -> System Settings ->Android SDK 选择 SDK Platforms  右下角 勾选 Show Package Details  把下面图片中的 SDK工具勾选，点击Apply 等待下载 
 
-  ![](lib\md\android.png)
+  ![](./lib/md/android.png)
 
   
 
 - 选择 SDK Tools 右下角 勾选 Show Package Details   把下面图片中的 SDK 工具勾选，点击Apply 等待下载 
 
-  ![](lib\md\28.0.png)
+  ![](./lib/md/28.0.png)
 
 - 在系统变量中新增 `ANDROID_HOME` 变量 加入刚刚 android sdk 目录 路径 ，如下图所示
 
-   ![](lib\md\sdk.png)
+   ![](./lib/md/sdk.png)
 
 - 在系统变量的path 变量中 加入  sdk 目录中 platform-tools 和tools 文件夹路径，如下图所示
 
-   ![](lib\md\tool.png)
+   ![](./lib/md/tool.png)
 
 ### 1.6 安装yarn 包管理工具 及 react-native-cli 脚手架工具
 
@@ -138,16 +138,16 @@ var sharedBlacklist = [
 
 ![image](./lib/images/6.png)
 
-![](lib\images\8.png)
+![](./lib/images/8.png)
 
-![](lib\images\5.png)
+![](./lib/images/5.png)
 
-![](lib\images\7.png)
+![](./lib/images/7.png)
 
-![](lib\images\3.png)
+![](./lib/images/3.png)
 
-![](lib\images\9.png)
+![](./lib/images/9.png)
 
-![](lib\images\10.png)
+![](./lib/images/10.png)
 
-![](lib\images\11.png)
+![](./lib/images/11.png)
