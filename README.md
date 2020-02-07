@@ -136,7 +136,7 @@ var sharedBlacklist = [
 
 下面是一些 UI界面截图，功能就不介绍了
 
-![image](https://github.com/LOVINGFINE/suitingfm/tree/master/lib/images/6.png)
+![image](./lib/images/6.png)
 
 ![](lib\images\8.png)
 
