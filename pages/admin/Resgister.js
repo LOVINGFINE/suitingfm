@@ -28,9 +28,11 @@ export default function Resgister(props){
         if(a_value==value){
         Axios.post(`http://an-fine.cn:3030/register`,{phone:props.navigation.state.params.tel,password:value})
         .then(res=>{
+            console.log(res);
+            
             if(res.data.code==200){
                 props.navigation.navigate('Home')
-                context.handleMessage(res.data)
+                context.handleMessage(res.result)
             }else {
                 handleWarn({msg:'手机已注册，前去登录',show:true})
             setTimeout(()=>{

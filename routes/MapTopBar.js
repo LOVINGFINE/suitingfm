@@ -10,7 +10,6 @@ import {
 
  const MapTabBar = (props) =>{
      const context = useContext(MyContext)
-     console.log(context.admin);
      
      const [map,handleMap] = useState(1)
      const changeRouter = (e) =>{

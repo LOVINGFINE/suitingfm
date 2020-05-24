@@ -22,11 +22,9 @@ export default function Password(props){
         return ()=>setShow(true)   
     },[]);
     const handleLoginMessage = ()=>{
-        console.log(1);
-        
         Axios.post(`http://an-fine.cn:3030/login`,{phone:props.navigation.state.params.tel,password:value})
         .then(res=>{
-            console.log(res.data.code);
+            console.log(res.data);
             
             if(res.data.code==200){
                 props.navigation.navigate('Home')
